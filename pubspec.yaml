@@ -1,0 +1,16 @@
+name: cricket_coach_app
+description: A zero-cost ad-driven cricket coaching application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.5.0
+  google_mobile_ads: ^5.2.0
+
+flutter:
+  uses-material-design: true
